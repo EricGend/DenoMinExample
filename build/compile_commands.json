@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/ericg/src/Deno_test/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o CMakeFiles/denoTester.dir/denoTester.cpp.o -c /home/ericg/src/Deno_test/c++Logic/denoTester.cpp",
+  "file": "/home/ericg/src/Deno_test/c++Logic/denoTester.cpp",
+  "output": "/home/ericg/src/Deno_test/build/CMakeFiles/denoTester.dir/denoTester.cpp.o"
+}
+]
