@@ -1,6 +1,4 @@
-//import {simpleWebUi} from "./webUi.ts";
-import { WebUI } from "jsr:@webui/deno-webui";
-
+import {simpleWebUi, webViewApp} from "./webViewApp.ts";
 
 export function add(a: number, b: number): number {
   return a + b;
@@ -10,12 +8,12 @@ export function add(a: number, b: number): number {
 if (import.meta.main) {
   console.log("Add 2 + 3 =", add(2, 3));
   testCPlusPLusLib();
-  //await simpleWebUi();
 
-  const win = new WebUI();
-  win.show("<h1>Hello World</h1>");
-  await WebUI.wait();
+  startWebView()
+}
 
+function startWebView(){
+  simpleWebUi()
 }
 
 export function testCPlusPLusLib(){
